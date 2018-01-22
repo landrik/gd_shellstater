@@ -19,6 +19,7 @@ npm-debug.log
 npm-cache
 node_modules
 concept
+README.md
 
 ## Bower
 src/components
