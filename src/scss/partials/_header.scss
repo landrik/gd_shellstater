@@ -1,0 +1,26 @@
+.header {background: url('../img/banner.png') no-repeat 50% 50%}
+.logo {
+  // margin: -58px 0 0 -100px;
+  // @include position(absolute, 50% 0 0 50%);
+  img {}
+}
+#masthead{margin-bottom: 0px !important}
+.introduccion{
+  background: url('../img/introBg.png') 0 0 no-repeat;
+  margin: 0;
+  padding: 0.5em;
+  @include breakpoint(desktop) {
+    padding: 5em 10em;
+    float: right;
+    padding-top: 100px
+  }
+  p{
+    color: #fff;
+    font-weight: 100;
+    b{font-weight: 700}
+  }
+}
+.page-title{
+  display: none;
+  //@include breakpoint(desktop) {}
+}

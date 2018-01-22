@@ -1,0 +1,93 @@
+.nav {
+  ul {
+    list-style: none;
+    li {
+      a {
+
+      }
+    }
+  }
+}
+
+
+#primary_nav_wrap{
+   ul.menu{
+     li{
+       margin-right: -4px;
+       width:15%;
+       &.current{
+         a{background: #ccf8ed}
+       }
+       > a {
+          position: relative;
+          box-sizing: border-box;
+          display: block;
+          -moz-transform: skewX(32deg);
+          -ms-transform: skewX(32deg);
+          -webkit-transform: skewX(32deg);
+          transform: skewX(32deg);
+          width: 100%;
+          height: 45px !important;
+          text-align: center;
+          > span {
+            color: inherit;
+            font-size: inherit;
+            margin: 0;
+            display: inline-block;
+            position: relative;
+            box-sizing: border-box;
+            -moz-transform: skewX(-32deg);
+            -ms-transform: skewX(-32deg);
+            -webkit-transform: skewX(-32deg);
+            transform: skewX(-32deg);
+            left: 0;
+            width: 100%;
+          }
+          &.active{
+            &:before{
+              position: absolute;
+              content: '';
+              border: 5px solid #fff;
+              left: 50%;
+              bottom: -10px;
+              transform: skewX(-32deg);
+              border-bottom-color: transparent;
+              border-left-color: transparent;
+              border-right-color: transparent;
+            }
+          }
+        }
+        ul.sub-menu{
+          opacity: 1;
+           visibility: visible;
+           text-align: center;
+           padding:10px !important;
+           background: rgba(47, 40, 61, 1) !important;
+           li{
+             width: auto;
+             display: inline-block;
+             margin: 0;
+              a{
+                line-height:1 !important;
+                height:auto !important;
+                padding:0 10px !important;
+                transform: initial;
+                font-size: 16px;
+                color: #fff;
+                &:hover{
+                  &:after{
+                    content: none;
+                    background: none;
+                  }
+                }
+              }
+           }
+           &.is_fixed{
+             position: fixed;
+             top:0;
+           }
+        }
+
+    }
+  }
+}

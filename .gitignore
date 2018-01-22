@@ -1,0 +1,42 @@
+# gd_shellstater
+# https://landrik.github.io/gd_shellstater.git
+# @author landry Karege
+
+
+## Node.js
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+logs
+results
+npm-debug.log
+npm-cache
+node_modules
+concept
+
+## Bower
+src/components
+
+## Sass
+.sass-cache
+
+## OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

@@ -1,0 +1,460 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "globaldata-icons";
+  src:url("../fonts/globaldata-icons.eot");
+  src:url("../fonts/globaldata-icons.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/globaldata-icons.woff") format("woff"),
+    url("../fonts/globaldata-icons.ttf") format("truetype"),
+    url("../fonts/globaldata-icons.svg#globaldata-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "globaldata-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="gd-icon-"]:before,
+[class*=" gd-icon-"]:before {
+  font-family: "globaldata-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gd-icon-account-manager:before {
+  content: "\61";
+}
+.gd-icon-wound-care:before {
+  content: "\62";
+}
+.gd-icon-city-intelligence:before {
+  content: "\63";
+}
+.gd-icon-cosmetics-toileteries:before {
+  content: "\64";
+}
+.gd-icon-financial-services:before {
+  content: "\65";
+}
+.gd-icon-genito-urinary-system:before {
+  content: "\66";
+}
+.gd-icon-immunology:before {
+  content: "\67";
+}
+.gd-icon-internet-ecosystem:before {
+  content: "\68";
+}
+.gd-icon-metabolic-disorders:before {
+  content: "\69";
+}
+.gd-icon-packaging:before {
+  content: "\6a";
+}
+.gd-icon-sale-business-development:before {
+  content: "\6b";
+}
+.gd-icon-travel-tourism:before {
+  content: "\6c";
+}
+.gd-icon-trend-trackers:before {
+  content: "\6d";
+}
+.gd-icon-sector-analysis:before {
+  content: "\6e";
+}
+.gd-icon-panel-analysis:before {
+  content: "\6f";
+}
+.gd-icon-mouth-dental-disorders:before {
+  content: "\70";
+}
+.gd-icon-investor-relations:before {
+  content: "\71";
+}
+.gd-icon-in-vitro-diagnostics:before {
+  content: "\72";
+}
+.gd-icon-global-it:before {
+  content: "\73";
+}
+.gd-icon-fintech:before {
+  content: "\74";
+}
+.gd-icon-country-analysis:before {
+  content: "\75";
+}
+.gd-icon-client-services-team:before {
+  content: "\76";
+}
+.gd-icon-alcoholic-drinks:before {
+  content: "\77";
+}
+.gd-icon-analysis-team:before {
+  content: "\78";
+}
+.gd-icon-clothing-footwear:before {
+  content: "\79";
+}
+.gd-icon-databases:before {
+  content: "\7a";
+}
+.gd-icon-food:before {
+  content: "\41";
+}
+.gd-icon-global-telecoms:before {
+  content: "\42";
+}
+.gd-icon-industry-analysis:before {
+  content: "\43";
+}
+.gd-icon-life-insurance:before {
+  content: "\44";
+}
+.gd-icon-movie-icon:before {
+  content: "\45";
+}
+.gd-icon-pet-care:before {
+  content: "\46";
+}
+.gd-icon-services:before {
+  content: "\47";
+}
+.gd-icon-trendsights-reports:before {
+  content: "\48";
+}
+.gd-icon-twitter:before {
+  content: "\49";
+}
+.gd-icon-soft-drinks:before {
+  content: "\4a";
+}
+.gd-icon-pharmaceuticals:before {
+  content: "\4b";
+}
+.gd-icon-muscoskeletal-disorders:before {
+  content: "\4c";
+}
+.gd-icon-linkedin:before {
+  content: "\4d";
+}
+.gd-icon-industry-forecasts:before {
+  content: "\4e";
+}
+.gd-icon-haematological-disorders:before {
+  content: "\4f";
+}
+.gd-icon-food-grocery:before {
+  content: "\50";
+}
+.gd-icon-databseries:before {
+  content: "\51";
+}
+.gd-icon-comments:before {
+  content: "\52";
+}
+.gd-icon-automotive:before {
+  content: "\53";
+}
+.gd-icon-baby-care:before {
+  content: "\54";
+}
+.gd-icon-company-analysis:before {
+  content: "\55";
+}
+.gd-icon-dermatology:before {
+  content: "\56";
+}
+.gd-icon-food-service:before {
+  content: "\57";
+}
+.gd-icon-health-beauty:before {
+  content: "\58";
+}
+.gd-icon-infectious-diseases:before {
+  content: "\59";
+}
+.gd-icon-male-health:before {
+  content: "\5a";
+}
+.gd-icon-nephrology-urology:before {
+  content: "\30";
+}
+.gd-icon-platform-devices:before {
+  content: "\31";
+}
+.gd-icon-spirits:before {
+  content: "\32";
+}
+.gd-icon-wealth-dossiers:before {
+  content: "\33";
+}
+.gd-icon-wealth-management:before {
+  content: "\34";
+}
+.gd-icon-strategy-planning:before {
+  content: "\35";
+}
+.gd-icon-real-time-intelligence:before {
+  content: "\36";
+}
+.gd-icon-nutritional-disorders:before {
+  content: "\37";
+}
+.gd-icon-managed-hosted-services:before {
+  content: "\38";
+}
+.gd-icon-ingredients:before {
+  content: "\39";
+}
+.gd-icon-healthcare:before {
+  content: "\21";
+}
+.gd-icon-food-services:before {
+  content: "\22";
+}
+.gd-icon-diabetes:before {
+  content: "\23";
+}
+.gd-icon-competitive-company-analysis:before {
+  content: "\24";
+}
+.gd-icon-beer-cider:before {
+  content: "\25";
+}
+.gd-icon-beverages:before {
+  content: "\26";
+}
+.gd-icon-consulting:before {
+  content: "\27";
+}
+.gd-icon-diagnostic-imaging:before {
+  content: "\28";
+}
+.gd-icon-forecasting:before {
+  content: "\29";
+}
+.gd-icon-healthcare-it:before {
+  content: "\2a";
+}
+.gd-icon-innovation:before {
+  content: "\2b";
+}
+.gd-icon-market-analysis:before {
+  content: "\2c";
+}
+.gd-icon-oncology:before {
+  content: "\2d";
+}
+.gd-icon-regulatory-milestone-tracker:before {
+  content: "\2e";
+}
+.gd-icon-success-failure:before {
+  content: "\2f";
+}
+.gd-icon-web-address:before {
+  content: "\3a";
+}
+.gd-icon-wine:before {
+  content: "\3b";
+}
+.gd-icon-survey-insights:before {
+  content: "\3c";
+}
+.gd-icon-regulatory-trade-industry:before {
+  content: "\3d";
+}
+.gd-icon-opportunity-assessment:before {
+  content: "\3e";
+}
+.gd-icon-market-impact:before {
+  content: "\3f";
+}
+.gd-icon-innovation-guidance:before {
+  content: "\40";
+}
+.gd-icon-home-icon:before {
+  content: "\5b";
+}
+.gd-icon-foresights-reports:before {
+  content: "\5d";
+}
+.gd-icon-diy-home:before {
+  content: "\5e";
+}
+.gd-icon-consumer:before {
+  content: "\5f";
+}
+.gd-icon-brand-management:before {
+  content: "\60";
+}
+.gd-icon-briefs:before {
+  content: "\7b";
+}
+.gd-icon-consumer-analysis:before {
+  content: "\7c";
+}
+.gd-icon-electrical-entertainment:before {
+  content: "\7d";
+}
+.gd-icon-fresh-food:before {
+  content: "\7e";
+}
+.gd-icon-hormonal-disorders:before {
+  content: "\5c";
+}
+.gd-icon-innovation-insight:before {
+  content: "\e000";
+}
+.gd-icon-market-insight:before {
+  content: "\e001";
+}
+.gd-icon-opthalmology:before {
+  content: "\e002";
+}
+.gd-icon-reports:before {
+  content: "\e003";
+}
+.gd-icon-technology:before {
+  content: "\e004";
+}
+.gd-icon-womens-health:before {
+  content: "\e005";
+}
+.gd-icon-respiratory-diseases:before {
+  content: "\e006";
+}
+.gd-icon-orthopedics:before {
+  content: "\e007";
+}
+.gd-icon-technology-software:before {
+  content: "\e008";
+}
+.gd-icon-market-product-strategy:before {
+  content: "\e009";
+}
+.gd-icon-innovation-reports:before {
+  content: "\e00a";
+}
+.gd-icon-hostpital-supplies:before {
+  content: "\e00b";
+}
+.gd-icon-fuel:before {
+  content: "\e00c";
+}
+.gd-icon-email:before {
+  content: "\e00d";
+}
+.gd-icon-consumer-insight:before {
+  content: "\e00e";
+}
+.gd-icon-calendar:before {
+  content: "\e00f";
+}
+.gd-icon-cardiovascular:before {
+  content: "\e010";
+}
+.gd-icon-consumer-payments:before {
+  content: "\e011";
+}
+.gd-icon-ent-diseases:before {
+  content: "\e012";
+}
+.gd-icon-gastrointestinal-diseases:before {
+  content: "\e013";
+}
+.gd-icon-hot-drinks:before {
+  content: "\e014";
+}
+.gd-icon-insight-analysis:before {
+  content: "\e015";
+}
+.gd-icon-marketing:before {
+  content: "\e016";
+}
+.gd-icon-otc-healthcare:before {
+  content: "\e017";
+}
+.gd-icon-retail:before {
+  content: "\e018";
+}
+.gd-icon-telephone:before {
+  content: "\e019";
+}
+.gd-icon-tobacco-tobacco-products:before {
+  content: "\e01a";
+}
+.gd-icon-retail-2:before {
+  content: "\e01b";
+}
+.gd-icon-pack-track:before {
+  content: "\e01c";
+}
+.gd-icon-marketing-communications:before {
+  content: "\e01d";
+}
+.gd-icon-insurance:before {
+  content: "\e01e";
+}
+.gd-icon-household-care:before {
+  content: "\e01f";
+}
+.gd-icon-general-surgery:before {
+  content: "\e020";
+}
+.gd-icon-expert-insight-analysis:before {
+  content: "\e021";
+}
+.gd-icon-consumer-services:before {
+  content: "\e022";
+}
+.gd-icon-cards-payments-timetric:before {
+  content: "\e023";
+}
+.gd-icon-central-nervous-system:before {
+  content: "\e024";
+}
+.gd-icon-cosmetics-personal-care:before {
+  content: "\e025";
+}
+.gd-icon-financial-analysis:before {
+  content: "\e026";
+}
+.gd-icon-household-products:before {
+  content: "\e027";
+}
+.gd-icon-genetic-disorders:before {
+  content: "\e028";
+}
+.gd-icon-inteligence-center:before {
+  content: "\e029";
+}
+.gd-icon-medical-devices:before {
+  content: "\e02a";
+}
+.gd-icon-packaged-food:before {
+  content: "\e02b";
+}
+.gd-icon-retail-banking:before {
+  content: "\e02c";
+}
+.gd-icon-trackers:before {
+  content: "\e02d";
+}
